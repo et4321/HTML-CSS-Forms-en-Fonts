@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Burton Education Login</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+        <style>
+            * {
+                font-family: 'Yusei Magic', sans-serif;
+            }
+            div.form-group {
+                width: 350px;
+                padding: 20px;
+            }
+
+            input {
+                float: right;
+            }
+        </style>  
+    </head>
+
+    <body>
+        <h1>Inlog Formulier</h1>
+        <form action="https://www.savatarian.com/html5/form.php" method="POST">
+            <div class="form-group">
+                <label for="voornaam">Voornaam</label>
+                <input type="text" name="voornaam">
+            </div>
+
+            <div class="form-group">
+                <label for="tussen">Tussen voegsels</label>
+                <input type="text" name="tussen">
+            </div>
+
+            <div class="form-group">
+                <label for="achternaam">Achternaam</label>
+                <input type="text" name="achternaam">
+            </div>
+
+            <div class="form-group">
+                <label for="date">Geboorte jaar:</label>
+                <input type="date" name="date">
+            </div>
+
+            <div class="form-group">
+                <label for="textarea">Message:</label>
+                <br>
+                <textarea name="textarea" rows="4" cols="50">
+                </textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="verzend">Verzend</label>
+                <input type="submit" name="verzend">
+            </div>
+
+        </form>
+    </body>
+</html>

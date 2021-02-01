@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+div#wrapper, footer {
+    width: 1000px;
+    margin: auto;
+    background-color: #FFEAEA;
+    padding: 20px;
+}
+
+body {
+    font-family: "Arial", "sans serif";
+    line-height: 23px;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+section.apple, section.visuals{
+    width: 50%;
+    float:left;
+}
+
+section.visuals {
+    text-align: center;
+}
+
+section.artikel {
+
+}
+
+img.apple {
+    width: 496px;
+}
+
+img.visual{
+    width: 447px;
+    margin-bottom: 12px;
+}
+
+img.artikel {
+  margin-top: 20px;  
+  margin-bottom: 20px;
+  width: 303px;
+}
+
+article {
+    display: inline-block;
+    width: 33%;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+article:last-child {
+    padding-right: none;
+}
+
+footer {
+    background-color: rgb(166, 166, 166);
+    color: white;
+}
+
+footer a {
+    color: white;
+}
